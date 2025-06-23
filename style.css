@@ -7,7 +7,7 @@
 
 body {
   background-color: hsl(211, 86%, 6%) !important;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .collapse navbar-collapse {
@@ -342,6 +342,10 @@ header .btn-outline-success {
 .hero_section_special input {
     width: 100% !important;  
     margin-bottom: 9px !important;
+}
+
+.hero_left_img {
+    width: 80%;
 }
 
 .hero_section_special button {
