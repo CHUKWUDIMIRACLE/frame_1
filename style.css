@@ -7,6 +7,7 @@
 
 body {
   background-color: hsl(211, 86%, 6%) !important;
+  overflow-x: hidden;
 }
 
 .collapse navbar-collapse {
@@ -334,7 +335,16 @@ header .btn-outline-success {
     width: 90px;
 }
 
-.hero_section_special input,.hero_section_special button {
+.hero_section_special {
+    margin-top: 1px !important;
+}
+
+.hero_section_special input {
+    width: 100% !important;  
+    margin-bottom: 9px !important;
+}
+
+.hero_section_special button {
     width: 100% !important;
 }
 
@@ -354,9 +364,16 @@ header .btn-outline-success {
 .GPT_container_content h2 {
 width: 100%;
 }
+
+.section-4  {
+    padding: 0% !important;
+}  
+
+
 .feature_box { 
     margin-top: 1px;
-    margin-left: 2px !important;
+    margin: 1px !important;
+    padding: 0% !important;
 } 
 
 .feature_content {
@@ -415,21 +432,26 @@ width: 100%;
 
 .card2{
     margin-bottom: 0px; 
+    height: 360px;
     margin-top: 40px;  
 }
 
 
 footer{
     margin-top: 50px;
+   
 }
 
+.container {
+    padding: 0% !important;
+}
 
 .foottxt h2 {
     font-size: calc(1.375rem + 1.5vw) !important;
     font-weight: 800;
     line-height: 50px;
    text-align: left;
-   margin-left: 14px;
+   margin-left: 1px;
 }
 
 
